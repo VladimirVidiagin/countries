@@ -1,0 +1,19 @@
+@import "../src/app/globalStyles";
+
+// shared
+@import "../src/shared/Button/button", "../src/shared/Pagination/pagination",
+  "../src/shared/PageTitle/pageTitle", "../src/shared/Loader/loader";
+
+// entities
+@import "../src/entities/countries/FeedCountryCard/feedCountryCard",
+  "../src/entities/LinksList/linkList";
+
+// widgets
+@import "../src/widgets/Header/header",
+  "../src/widgets/CountriesSortFilterForm/countriesSortFilterForm";
+
+// pages
+@import "../src/pages/MainPage/ui/mainPage",
+  "../src/pages/FavoriteCountriesPage/favoriteCountriesPage",
+  "../src/pages/ViewHistoryPage/viewHistoryPage",
+  "../src/pages/CurrentCountryPage/currentCountryPage";
