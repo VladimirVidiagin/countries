@@ -1,0 +1,26 @@
+.main-page-form {
+  &__narrowed-section {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .MuiTextField-root {
+      flex: 0 1 90%;
+    }
+
+    button {
+      flex: 0 1 10%;
+    }
+  }
+
+  &__expanded-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+    .SelectInput {
+      flex: 1 1 calc(25% - 10px);
+      min-width: 150px;
+    }
+  }
+}

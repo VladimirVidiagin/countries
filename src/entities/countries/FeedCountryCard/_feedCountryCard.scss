@@ -1,0 +1,41 @@
+.country-card {
+  position: relative;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  overflow: hidden;
+
+  &__item {
+    padding: 0;
+    margin: 0;
+  }
+
+  &__title {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  &__flag {
+    width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 5px;
+  }
+
+  &__capital,
+  &__population {
+    font-size: 1rem;
+    margin-bottom: 5px;
+  }
+}
+
+.favorite-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 10;
+}
+
+.main-page__country-list .country-card {
+  height: 400px;
+}

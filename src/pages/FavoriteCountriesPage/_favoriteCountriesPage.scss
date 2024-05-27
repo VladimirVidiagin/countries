@@ -1,0 +1,8 @@
+.favorite-countries-page {
+  margin-top: 80px;
+  padding: 30px;
+
+  & > *:not(:last-child) {
+    margin-bottom: 10px;
+  }
+}
